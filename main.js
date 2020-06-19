@@ -1,8 +1,9 @@
 
 function turnRed(e) {
 
-  const red =document.querySelector(`.key[data-key="65"]`);
-  console.log(red);
+  const element =document.querySelector(`.key[data-key="e.keyCode"`);
+  console.log(element);
+
 
    // key.addEventListener('keydown', evt => {
    //
@@ -18,9 +19,3 @@ function turnRed(e) {
 // const action =document.querySelectorAll('[data-action="addStyle"]');
 // console.log(action[0].dataset);
 //
-// for (let key of action) {
-//   key.addEventListener('keydown',evt =>{
-//     console.log(event.keyCode);
-//
-//   });
-// }
