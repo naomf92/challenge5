@@ -1,13 +1,21 @@
 
 function turnRed(e) {
 
-  const element =document.querySelector(`.key[data-key="e.keyCode"`);
+  const element =document.querySelector(`.key[data-key=${e.keyCode}`);
   console.log(element);
 
 
-   // key.addEventListener('keydown', evt => {
-   //
-   // });
+  window.addEventListener('keydown',turnRed);{
+
+    console.log();
+  }
+
+
+
+
+
+
+
 
   // for (let key of red){
   //   key.classList.add('playing');
