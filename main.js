@@ -5,11 +5,8 @@ function turnRed(e) {
   console.log(element);
 
   window.addEventListener('keydown',turnRed);{
-    for(let key of element) {
-      key.classList.add('playing');
-    }
+      element.classList.add('playing');
   }
-
 
  }
  turnRed();
@@ -17,3 +14,7 @@ function turnRed(e) {
 // const action =document.querySelectorAll('[data-action="addStyle"]');
 // console.log(action[0].dataset);
 //
+
+const sound =document.querySelector('.sound');
+console.log(sound);
+
