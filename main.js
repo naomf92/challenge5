@@ -1,6 +1,6 @@
 
 function effect(e) {
-  const element = document.querySelector(`.key[data-key="${e.keyCode}"`);
+  const element = document.querySelector(`.key[data-key="${e.keyCode}"]`);
   element.classList.add('playing');
 
   const sound = document.querySelector(`audio[data-key="${e.keyCode}"]`);
